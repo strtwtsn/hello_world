@@ -4,7 +4,7 @@ set :branch, "master"
 
 server "18.231.169.80", user: 'ubuntu', roles: %w{app web db}
 
-set :application, "test"
+set :application, "hello_world"
 set :server_name, "18.231.169.80"
 set :sudo_user, "ubuntu"
 set :app_port, "80"
